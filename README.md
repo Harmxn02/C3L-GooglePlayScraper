@@ -35,17 +35,17 @@ In this repository, you will find a Python script that scrapes Google Play Store
 
 The datasets are already available in the `data/fetched` folder. However, if you want to scrape the data again, follow these steps:
 
-- Run the scraper:
+### Run the scraper
 
-    ```bash
-    python main.py
-    ```
+```bash
+python main.py
+```
 
 This will scrape the data, and export a CSV file to `data/fetched/health_and_fitness_apps.csv`
 
-- Run the Jupyter notebook:
+### Run the Jupyter notebook
 
-open it, and run the cells
+Open it, and run the cells
 
 This will preprocess the data and export it to the following formats:
 
@@ -59,4 +59,4 @@ This will preprocess the data and export it to the following formats:
 
 Feel free to use this code for your own projects, however you like.
 
-Follow the license of the `google-play-scraper` library for any restrictions.
+Follow the license of the `google-play-scraper` library for any restrictions. Same applies to the `pandas` library.
