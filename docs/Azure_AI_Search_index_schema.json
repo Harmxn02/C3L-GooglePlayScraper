@@ -1,0 +1,52 @@
+{
+	"name": "apps-index",
+	"fields": [
+		{ "name": "appId", "type": "Edm.String", "key": true, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": false, "synonymMaps": [] },
+		{ "name": "title", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": true, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "descriptionHTML", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": true, "filterable": false, "sortable": false, "facetable": false, "synonymMaps": [] },
+		{ "name": "summary", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": true, "filterable": false, "sortable": false, "facetable": false, "synonymMaps": [] },
+		{ "name": "installs", "type": "Edm.Int64", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "minInstalls", "type": "Edm.Int64", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "realInstalls", "type": "Edm.Int64", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "score", "type": "Edm.Double", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "ratings", "type": "Edm.Int64", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "reviews", "type": "Edm.Int64", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "price", "type": "Edm.Int64", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "free", "type": "Edm.Boolean", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": false, "facetable": true, "synonymMaps": [] },
+		{ "name": "currency", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "offersIAP", "type": "Edm.Boolean", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": false, "facetable": true, "synonymMaps": [] },
+		{ "name": "inAppProductPrice", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": false, "sortable": false, "facetable": false, "synonymMaps": [] },
+		{ "name": "developer", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": true, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "developerEmail", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": false, "synonymMaps": [] },
+		{ "name": "developerWebsite", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": false, "sortable": false, "facetable": false, "synonymMaps": [] },
+		{ "name": "privacyPolicy", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": false, "sortable": false, "facetable": false, "synonymMaps": [] },
+		{ "name": "genre", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": true, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "genreId", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "categories", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": true, "filterable": true, "sortable": false, "facetable": true, "synonymMaps": [] },
+		{ "name": "icon", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": false, "sortable": false, "facetable": false, "synonymMaps": [] },
+		{ "name": "headerImage", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": false, "sortable": false, "facetable": false, "synonymMaps": [] },
+		{ "name": "screenshots", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": false, "sortable": false, "facetable": false, "synonymMaps": [] },
+		{ "name": "contentRating", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": true, "filterable": true, "sortable": true, "facetable": true, "synonymMaps": [] },
+		{ "name": "adSupported", "type": "Edm.Boolean", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": false, "facetable": true, "synonymMaps": [] },
+		{ "name": "containsAds", "type": "Edm.Boolean", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": false, "facetable": true, "synonymMaps": [] },
+		{ "name": "released", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": false, "sortable": true, "facetable": false, "synonymMaps": [] },
+		{ "name": "lastUpdatedOn", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": false, "sortable": true, "facetable": false, "synonymMaps": [] },
+		{ "name": "updated", "type": "Edm.Int64", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": true, "sortable": true, "facetable": false, "synonymMaps": [] },
+		{ "name": "comments", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": true, "filterable": false, "sortable": false, "facetable": false, "synonymMaps": [] },
+		{ "name": "url", "type": "Edm.String", "key": false, "retrievable": true, "stored": true, "searchable": false, "filterable": false, "sortable": false, "facetable": false, "synonymMaps": [] }
+	],
+	"scoringProfiles": [],
+	"corsOptions": {
+		"allowedOrigins": ["*"],
+		"maxAgeInSeconds": 300
+	},
+	"suggesters": [],
+	"analyzers": [],
+	"tokenizers": [],
+	"tokenFilters": [],
+	"charFilters": [],
+	"normalizers": [],
+	"similarity": {
+		"@odata.type": "#Microsoft.Azure.Search.BM25Similarity"
+	}
+}
